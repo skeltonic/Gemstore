@@ -1,0 +1,91 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #8b939e;
+  background-image: url(beach.jpg);
+  background-repeat: no-repeat;
+  background-position: justify-content;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: white;
+  opacity: .6;
+  border-style: groove;
+  border-width: 2px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+hr {
+  width: 60%
+}
+
+p {
+  background-color: white;
+  opacity: .8;
+  border-style: groove;
+  border-width: 2px;
+
+}
+
+/* This code is for flex containers */
+
+.footer-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.footer-item {
+
+  text-align: center;
+  line-height: 2;
+  font-size: 1em;
+  flex-flow: row wrap;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline;
+
+}
+
+footer {
+  background-color: white;
+  opacity: .6;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media all and (min-width: 900px){
+  .main {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media all and (max-width: 899px){
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
